@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "dev":"node --watch src/index.js",
+    "dev": "node --watch src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/YasirAhmed2/SmartNotes-API/issues"
   },
-  "homepage": "https://github.com/YasirAhmed2/SmartNotes-API#readme"
+  "homepage": "https://github.com/YasirAhmed2/SmartNotes-API#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2",
+    "nodemon": "^3.1.10"
+  }
 }
